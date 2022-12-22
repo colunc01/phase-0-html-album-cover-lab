@@ -4,6 +4,60 @@
     <meta charset="UTF-8">
     <title>HTML Album Cover</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      h1 {
+        margin: 0px;
+        margin-bottom: -85px;
+        font-weight: 70000;
+      }
+      h2 {
+        margin: 0;
+        margin-bottom: -17px;
+        font-weight: 70000;
+      }
+      h3 {
+        margin: 0;
+      }
+
+      .h1backCover {
+        font-size:100px;
+      }
+
+      .h3backCover {
+        font-size:15px;
+        font-weight:bold;
+      }
+      .writtenBy {
+        font-size:13px;
+        font-weight:bold;
+        padding-top: 100px;
+      }
+
+      .legalMumbo {
+        margin-top:10px;
+        line-height:2;
+        font-size:12.7px;
+      }
+      .columbiaLogo {
+        position:static;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .wrapTextPharrell {
+        position: absolute;
+        left: 650px;
+        bottom: -370px;
+      }
+
+      .wrapTextRecords{
+        position: absolute;
+        right: 650px;
+        bottom: -370px;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -11,33 +65,53 @@
         <div id="title-box">
 
           <!-- Level 4 'PHARRELL WILLIAMS' Header -->
+          <h4><span style="font-size:13px" style="font-weight:bold" </span> PHARRELL WILLIAMS</h4>
 
           <!-- Level 2 'HAPPY' Header -->
+          <h2><span style="font-size:50px" style="font-weight:bold" style="margin:0px" style="padding-left: 725px"</span> HAPPY</h2>
 
           <!-- Level 4 '| FROM DESPICABLE ME...' Header -->
+          <h4><span style="font-size:10px"  </span>| FROM DESPICABLE ME 2 |</h4>
 
         </div>
       </div>
+<!---------------------------------BACK COVER CODE------------------------------------------------>
 
       <div id="back" class="album">
 
         <!-- Level 3 '| FROM DESPICABLE ME...' Header -->
+        <h3 class="h3backCover">| &nbsp;&nbsp; FROM DESPICABLE ME 2 &nbsp;&nbsp; |</h3>
 
         <!-- Level 1 'HAPPY' Header -->
+        <h1 class="h1backCover">HAPPY</h1>
 
         <!-- Level 3 'WRITTEN BY...' Header -->
+        <h3 class="writtenBy">WRITTEN BY PHARRELL WILLIAMS</h3>
 
         <!-- pararaph text 'PUBLISHED BY...' -->
+        <p class="legalMumbo"> PUBLISHED BY EMI APRIL MUSIC, INC. OBO ITSELF AND MORE WATERFROM NAZARETH (ASCAP) / UNIVERSAL 
+          PICTURES MUSIC (ASCAP) | BACKGROUND VOCALS PERFORMED BY RHEA DUMMETT, 
+          TREVON HENDERSON, ASHLEY 
+          L. LEE, SHAMIKA HIGHTOWER, JASMINE MURRAY AND TERRENCE ROLLE | 
+          PRODUCED BY PHARRELL WILLIAMS | 
+          RECORDED BY MIKE LARSON FOR I AM OTHER ENTERTAINMENT AT CIRCLE 
+          HOUSE STUDIOS, MIAMI, FL | ASSISTED 
+          BY MATTHEW DESRAMEAUX | DIGITAL EDITING AND ARRANGEMENT BY ANDREW COLEMAN AND MIKE LARSON FOR I
+           AM OTHER ENTERTAINMENT | MIXED BY LESLIE BRATHWAITE AT MUSIC BOX STUDIOS, ATLANTA, GA.</p>
 
         <!-- span text 'PHARRELLWILLIAMS.COM' -->
+        <span style="font-size:12px" class="wrapTextPharrell" >PHARRELLWILLIAMS.COM</span>
 
         <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/columbia-logo.png] -->
+        <img src="https://s3.amazonaws.com/learn-verified/columbia-logo.png" alt="Columbia Logo" class="columbiaLogo">
 
         <!-- span text 'COLUMBIARECORDS.COM' -->
+        <span style="font-size:12px" class="wrapTextRecords" >COLUMBIARECORDS.COM</span>
 
         <br>
 
         <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/sony-logo.png] -->
+        <img src="https://s3.amazonaws.com/learn-verified/sony-logo.png" alt="Sony Logo">
 
       </div>
     </div>
